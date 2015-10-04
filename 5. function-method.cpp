@@ -3,7 +3,8 @@
 int varGlobal = 1;
 
 void fungsiPrototype();
-int perkalian(int a, int b){
+int perkalian(int a, int b)
+{
     return (a*b);
 }
 

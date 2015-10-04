@@ -23,6 +23,7 @@ int main () {
     // inputan char
     printf("getche :");
     char b = getche();
+    printf ("\n");
     putchar(b);
     printf ("\n");
 

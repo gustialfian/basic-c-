@@ -4,7 +4,7 @@ int main () {
     int x = 10;
     int y = 11;
     int z = 9;
-    int pil = 1;
+    int pil = 1; // %i, %d
 
     // sama denagan
     printf("sama denagan \t\t\t:");
@@ -19,8 +19,10 @@ int main () {
     printf("kurang dari \t\t\t:");
     if (x < y){
         printf("benar");
+
     }else{
         printf("salah");
+
     }
     printf("\n");
 
@@ -28,13 +30,15 @@ int main () {
     printf("lebih dari \t\t\t:");
     if (z > x){
         printf("benar");
+
     }else{
         printf("salah");
+
     }
     printf("\n");
 
     // kurang dari samadengan
-    printf("kurang dari samadengan \t:");
+    printf("kurang dari samadengan \t\t:");
     if (10 <= y){
         printf("benar");
     }else{
@@ -52,7 +56,7 @@ int main () {
     printf("\n");
 
     printf("operaton AND \t:");
-    if (x<y && 10>z){
+    if (1<2 && 10>9){
         printf("true");
     }else{
         printf("false");
@@ -60,7 +64,7 @@ int main () {
     printf("\n");
 
     printf("operaton OR \t:");
-    if (x<y || 10<z){
+    if (1<0 || 10>9){
         printf("true");
     }else{
         printf("false");
@@ -69,13 +73,21 @@ int main () {
 
     // nested if
     printf("Nested if :");
-    if(x<y){
+    if(1<2){
         printf("Level 1\n");
-        if(x>z){
+
+        if(3<2){
             printf("Level 2\n");
-            printf("benar\n");
+            if (1 == 1){
+                printf("Level 3\n");
+            }
         }
     }
+
+    if (!(1>10)){
+        printf("masuk");
+    }
+
     printf("\n\n");
 
     printf("Switch case:\n");

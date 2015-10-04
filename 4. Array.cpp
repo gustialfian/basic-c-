@@ -11,7 +11,7 @@ int main(){
 
     // inputan kata
     char kata1[7];
-    printf("Masukan angka :");
+    printf("Masukan kata :");
     gets(kata1);
     printf ("kata yang dimasukan :");
     puts(kata1);
