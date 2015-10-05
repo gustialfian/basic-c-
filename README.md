@@ -7,8 +7,9 @@
 * 5. while
 * 6. do-while
 * 7. function
+
 ----
-* if you have any question please comment or massage me in
+if you have any question please comment or massage me in
 * fb     :Gusti Alfian
 * twitter:@AlfinKima
 
